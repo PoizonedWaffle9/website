@@ -1,0 +1,49 @@
+#nav{
+    top:0rem;
+    left:0rem;
+    padding-top:5rem;
+    width:20%;
+    height:100%;
+    position:fixed;
+    text-align: center;
+    display:flexbox;
+    flex-direction: column;
+    color:whitesmoke;
+    background-color: rgb(10, 10, 10);
+    box-shadow: 0 0 .3rem black;
+}
+
+#nav img{
+    width: 60%;
+    border-radius: 100rem;
+}
+
+#nav .navTitle{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+}
+
+#nav .navText{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#nav .navText button{
+    padding: .3rem;
+    color:whitesmoke;
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-size:1.6rem;
+}
+
+#nav .navText button:disabled{
+    color:black;
+    text-shadow: 0rem 0rem .3rem whitesmoke;
+    transition: .2s;
+}
+
+#nav .navText button:hover, disabled {
+    color:black;
+    text-shadow: 0rem 0rem .3rem whitesmoke;
+    transition: .2s;
+}

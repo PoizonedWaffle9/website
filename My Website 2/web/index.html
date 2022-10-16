@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>
+            My Website
+        </title>
+        <link href="styles/nav.css" rel="stylesheet">
+        <link href="styles/content.css" rel="stylesheet">
+        <link href="styles/mainBody.css" rel="stylesheet">
+        
+        <script src="js/functions/imageCarousel.js"></script>
+        <script src="js/functions/imageCarouselStop.js"></script>
+        <script src="js/functions/changePage.js"></script>
+
+        <script src="js/content/makeHome.js"></script>
+        <script src="js/content/makeAboutMe.js"></script>
+        <script src="js/content/makeEducation.js"></script>
+        <script src="js/content/makeWorkExperience.js"></script>
+        <script src="js/content/makeContactMe.js"></script>
+        
+    </head>
+    <body>
+        
+        <div id="content">
+            <img class="imageCarousel" id="contentImage"></img>
+            <div id="contentBox">
+                <h1 id="contentTitle"></h1>
+                <h3 id="contentText"></h3>
+            </div>
+        </div>
+        <div id="nav">
+            <img src="pics/me w sunglasses2.png"></img>
+            <h1 class="navTitle">
+                Christian Berkhimer
+            </h1>
+            <div class="navText">
+            <h4 style="font-weight:lighter">
+                IST MAJOR AT TEMPLE UNIVERSITY
+            </h4>
+            <button id="home" onclick="changePage('home')">
+                Home
+            </button><br>
+            <button id="aboutMe" onclick="changePage('aboutMe')">
+                About Me
+            </button><br>
+            <button id="education" onclick="changePage('education')">
+                Education
+            </button><br>
+            <button id="workExperience" onclick="changePage('workExperience')">
+                Work Experience
+            </button><br>
+            <button id="contactMe" onclick="changePage('contactMe')">
+                Contact Me
+            </button><br>
+        </div>
+    </div>
+    </body>
+    <script>
+        makeHome();
+    </script>
+</html>
